@@ -10,9 +10,11 @@
 # Ignore build artifacts
 /build/
 *.log
+*.log.old
 
 # Ignore credentials and sensitive files
 .nstrumenta/credentials/
 
 # Ignore compressed files
 *.tar.gz
+TriangleLattice/bondtriangle/graphs/
