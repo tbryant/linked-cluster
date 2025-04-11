@@ -82,7 +82,7 @@ int main(int argc, char *argv[]){
   
   printf("opening %s\n\n",argv[2]);
   if ((inputlogfp = fopen(argv[2], "r"))==NULL){
-    printf("Cannot open file %s for intput\n",argv[2]);
+    printf("Cannot open file %s for input\n",argv[2]);
     exit(1);
   }
   

@@ -16,7 +16,7 @@ for Nsite in $Nsitelist
 # 	if [ -f "graphs/bondgraph_topolist${Nbond}_${Nsite}.dat" ]; then
 # 	    echo "graphs/bondgraph_topolist${Nbond}_${Nsite}.dat already exists"
 # 	else
-	nice time ./maketopolist.e $Nbond $Nsite >> maketopolist$2.log
+      time ./maketopolist.e $Nbond $Nsite >> maketopolist$2.log
 #	fi
     fi
   done

@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
   sprintf(filename,"graphs/bondgraph_topolist%i_%i.dat",Nbond,Nsite);
   printf("opening %s\n\n",filename);
   if ((infp = fopen(filename, "r"))==NULL){
-    printf("Cannot open file %s for intput\n",filename);
+    printf("Cannot open file %s for input\n",filename);
     exit(1);
   }
   

@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
   /* open topolist file */
   printf("opening %s\n\n",argv[1]);
   if ((infp = fopen(argv[1], "r"))==NULL){
-    printf("Cannot open file %s for intput\n",argv[1]);
+    printf("Cannot open file %s for input\n",argv[1]);
     exit(1);
   }
 

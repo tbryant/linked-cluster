@@ -13,7 +13,7 @@ for Nsite in $Nsitelist
   for Nbond in $Nbondlist
     do
     if  [[ -a graphs/bondgraphlist${Nbond}_${Nsite}.dat ]]; then
-	nice time ./makesubtopolist.e $Nbond $Nsite >> makesubtopolist$2.log	
+      time ./makesubtopolist.e $Nbond $Nsite >> makesubtopolist$2.log	
     fi
   done
 done
